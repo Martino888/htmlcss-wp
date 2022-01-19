@@ -36,9 +36,9 @@ a{
     color: lightgray;
 }
 
-.marrone{
+.banner{
     background-image: url(../img/banner.jpg);
-    height: 35rem;
+    height: 27rem;
     margin-bottom: 2em;
     border-radius: 5px;
     border-bottom: 5px;
@@ -48,7 +48,7 @@ a{
 }
 
 .text{
-    position: relative;top: 26rem;left: 3rem;
+    position: relative;top: 18rem;left: 3rem;
 }
 
 .gray{
@@ -69,19 +69,21 @@ main{
     background-color: rgb(177, 206, 228);
 }
 
-
-
-.box0::after{
+main::after{
     content: "";
     display: table;
     clear: both;
 }
 
-.box2{
+.azzurro{
     width: 20%;
-    height: 23em;
-    margin-top: 1em;
+}
+
+.box2{
+    height: 20rem;
+    border-radius: 10px;
     float: left;
+    background-image: url(../img/img-1.jpg);
 }
 
 .box3{
@@ -90,7 +92,7 @@ main{
     margin-top: 1em;
     margin-left: 1em;
     float: left; 
-    
+    background-image: url(../img/banner-2.jpg);
 }
 
 .box4 {
@@ -99,6 +101,7 @@ main{
     margin: 1em;
     margin-right: 0%;
     float: left;
+    background-image: url(../img/img-3.jpg);
 }
 
 .footerx{
