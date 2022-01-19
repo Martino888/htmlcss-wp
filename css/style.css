@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    margin-top:2em ;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 2em;
+}
+
+.violet{
+    margin-bottom: 2em;
+}
+
+.logo{
+    height: 100px;
+}
+
+ul{
+    list-style: none;
+    margin-left: 0%;
+}
+
+li{
+    display: inline-block;
+    padding: .5em;
+    margin-left: 0%;
+}
+
+a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.marrone{
+    background-image: url(../img/banner.jpg);
+    height: 35rem;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    border-bottom: 5px;
+    color: white; 
+    background-position: center;
+    background-size: initial;
+}
+
+.text{
+    position: relative;top: 26rem;left: 3rem;
+}
+
+.gray{
+    color: lightgray;
+}
+
+.h2{
+    padding-bottom: 1em;
+}
+
+main{
+    background-color: rgb(53, 135, 246);
+    width: 100%;
+    height: 30em;
+}
+
+.azzurro{
+    background-color: rgb(177, 206, 228);
+}
+
+
+
+.box0::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box2{
+    width: 20%;
+    height: 23em;
+    margin-top: 1em;
+    float: left;
+}
+
+.box3{
+    width: 41.9em;
+    height: 23em;
+    margin-top: 1em;
+    margin-left: 1em;
+    float: left; 
+    
+}
+
+.box4 {
+    width: 20%;
+    height: 23em;
+    margin: 1em;
+    margin-right: 0%;
+    float: left;
+}
+
+.footerx{
+    background-color:  rgb(124, 43, 244);
+    width: 100%;
+    height: 4em;margin-top: 1em;
+}
