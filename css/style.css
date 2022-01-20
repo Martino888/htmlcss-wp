@@ -4,9 +4,8 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+/*HEADER*/
 .container{
-    margin-top:2em ;
     margin-left: 5em;
     margin-right: 5em;
     margin-bottom: 2em;
@@ -37,8 +36,13 @@ a{
     color: lightgray;
 }
 
+.bk{
+    background-color: black;
+    border-radius: 5px;
+}
+
 .banner{
-    background-image: url(../img/banner.jpg);opacity: ;
+    background-image: url(../img/banner.jpg);opacity:90% ;
     height: 27rem;
     margin-bottom: 2em;
     border-radius: 5px;
@@ -46,7 +50,7 @@ a{
     color: white; 
     background-position: center;
     background-size: initial;
-    background-color: black;
+    
 }
 
 .text{
@@ -69,6 +73,11 @@ a{
     
 }
 
+.bk2{
+    background-color: black;
+    border-radius: 5px;
+}
+
 .clearfix:after {
     content: " ";
     display: block;
@@ -81,6 +90,7 @@ margin: 1%;
 background-size: cover;
 }
 
+
 .box{
     float: left;
     border-radius: 10px;
@@ -90,23 +100,26 @@ background-size: cover;
 .box1{
     width: 20%;
     height: 250px;
-    background-image: url(../img/img-1.jpg);
-    background-size: cover;
+    background-image: url(../img/img-1.jpg);opacity: 50%;
+    background-position: center;
+    background-size: initial;
 }
 
 .box2{
     width: 54%;
     height: 250px;
     background-image: url(../img/banner-2.jpg);
-    background-size: cover;
+    background-position: center;
+    background-size: 127%;
     
 }
 
 .box3 {
     width: 20%;
     height: 250px;
-    background-image: url(../img/img-3.jpg);
-    background-size: cover;
+    background-image: url(../img/img-3.jpg);opacity: 50%;
+    background-position: center;
+    background-size: 160%;
 }
 
 .box4{
@@ -138,7 +151,7 @@ h3{
 }
 @media (max-width:768px) {
     .boxtext{
-        width:130%;
+        width:200%;
     }
     
 }
